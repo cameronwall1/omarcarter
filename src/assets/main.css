@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { min-width:50px }
+  html, body { @apply bg-white text-zinc-400; }
+  .wrapper {
+    @apply mx-auto max-w-2xl px-4 sm:px-6  lg:max-w-7xl lg:px-8;
+  }
+}
+
+html {
+  
+  height: 100%;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
