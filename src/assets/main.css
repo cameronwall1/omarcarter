@@ -4,15 +4,24 @@
 
 @layer base {
   * { min-width:50px }
-  html, body { @apply bg-white text-zinc-400; }
+  /* html, body { @apply bg-white text-zinc-400; } */
   .wrapper {
     @apply mx-auto max-w-2xl px-4 sm:px-6  lg:max-w-7xl lg:px-8;
   }
 }
 
+
+* {
+  box-sizing: border-box;
+}
+
 html {
-  
   height: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+  scroll-behavior: smooth;
+  /* border: 3px solid black; */
 }
 
 .fade {
