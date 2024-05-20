@@ -16,7 +16,6 @@
             <div class="boardposition six">
                 <div class="board-display">
                     <h1>Lorem, ipsum dolor.</h1>
-                    <!-- <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, voluptate. nam</h2> -->
                 </div>
             </div>
         </div>
